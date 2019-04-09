@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts season.to_s.capitalize + ":"
     holiday_hash[season].keys.each do |holiday|
       if holiday.to_s.include?("_")
-        temp = holiday.split("_")
+        temp = holiday.to_s.split("_")
         temp.capitalize!
         temp.join(" ")
         puts temp + ":" + holiday_hash[season][holiday].to_S
