@@ -50,7 +50,6 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
       #end
     #end
   #end
-  holiday_hash[season].each do |season, holiday|
     
     
   end
