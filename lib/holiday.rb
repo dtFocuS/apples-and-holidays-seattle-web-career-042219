@@ -80,7 +80,6 @@ def all_supplies_in_holidays(holiday_hash)
         temp = temp.join(" ")
       else
         temp = holiday.to_s.capitalize!
-      
       end
       puts "  " + temp + ": " + holiday_hash[season][holiday].join(", ")
     end
