@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
         temp.capitalize!
         temp.join(" ")
         puts temp + ":" + holiday_hash[season][holiday].to_S
-        end
+      end
     end
   end
 
