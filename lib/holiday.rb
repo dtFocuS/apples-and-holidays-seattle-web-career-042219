@@ -78,9 +78,9 @@ def all_supplies_in_holidays(holiday_hash)
           word.capitalize!
         end
         temp = temp.join(" ")
-        #puts temp + ":" + holiday_hash[season][holiday].to_S
+        #puts temp + ":" + holiday_hash[season][holiday].to_s
       end
-      puts temp + ":" + holiday_hash[season][holiday].to_S
+      puts temp + ":" + holiday_hash[season][holiday].to_s
     end
   end
 
